@@ -3,7 +3,7 @@
 This is a simple PDF file compressor application :
 
 
-<img src="public/img/screenshot.png" width="500">
+<img src="public/img/screenshot.png" />
 
 ## Usage
 
