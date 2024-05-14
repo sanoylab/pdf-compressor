@@ -1,0 +1,23 @@
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Compress PDF</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron mt-5">
+            <h1 class="display-4">Compress PDF</h1>
+            <p class="lead">Upload a PDF file to compress it.</p>
+            <hr class="my-4">
+            <form action="/upload" method="post" enctype="multipart/form-data">
+                <div class="form-group">
+                    <input type="file" name="file" class="form-control-file">
+                </div>
+                <button type="submit" class="btn btn-primary">Upload and Compress</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

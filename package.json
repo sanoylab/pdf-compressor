@@ -1,0 +1,19 @@
+{
+  "name": "pdf_resizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "pdf-lib": "^1.17.1"
+  }
+}
